@@ -28,9 +28,8 @@ Este é um projeto de landing page moderna e responsiva, desenvolvido com HTML, 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+    git clone [https://github.com/kalinecerqueira/modernsite](https://github.com/kalinecerqueira/modernsite)
     ```
-    *Substitua `SEU-USUARIO/SEU-REPOSITORIO` pelo URL do seu repositório.*
 
 2.  **Abra o arquivo principal:**
     -   Navegue até a pasta onde o projeto foi clonado.
