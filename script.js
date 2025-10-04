@@ -332,7 +332,7 @@ function handleFormSubmit() {
         formErrors = {}
     }
 
-} // ADICIONE ESTA CHAVE '}' AQUI para fechar a função 'handleFormSubmit' corretamente.
+} 
 
 
 /**
@@ -429,7 +429,6 @@ function clearLoginErrors() {
     });
 }
 
-// ESTE DEVE SER O ÚNICO 'DOMContentLoaded' NO SEU ARQUIVO
 document.addEventListener('DOMContentLoaded', function() {
     initializeNavigation();
     initializeMobileMenu();
