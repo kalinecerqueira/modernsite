@@ -1,11 +1,3 @@
-// Aguarda o carregamento completo do DOM
-document.addEventListener('DOMContentLoaded', function() {
-    // Inicializa todas as funcionalidades
-    initializeNavigation()
-    initializeMobileMenu()
-    initializeForm()
-})
-
 /**
 * Função para scroll suave até uma seção
 * @param {string} sectionId - ID da seção alvo
@@ -340,6 +332,9 @@ function handleFormSubmit() {
         formErrors = {}
     }
 
+} // ADICIONE ESTA CHAVE '}' AQUI para fechar a função 'handleFormSubmit' corretamente.
+
+
 /**
  * INICIALIZAÇÃO DO FORMULÁRIO DE LOGIN
  */
@@ -364,10 +359,10 @@ function initializeLoginForm() {
 
         if (isEmailValid && isPasswordValid) {
             console.log("======================================");
-            console.log("✅ TENTATIVA DE LOGIN");
+            console.log("✅ LOGIN EFETUADO COM SUCESSO!");
             console.log("======================================");
             console.log(`E-mail: ${email}`);
-            console.log(`Senha: ${password}`);
+            console.log(`Senha: [Protegida]`);
             console.log("Data/Hora:", new Date().toLocaleString("pt-BR"));
             console.log("======================================");
             
@@ -434,12 +429,10 @@ function clearLoginErrors() {
     });
 }
 
+// ESTE DEVE SER O ÚNICO 'DOMContentLoaded' NO SEU ARQUIVO
 document.addEventListener('DOMContentLoaded', function() {
-
     initializeNavigation();
     initializeMobileMenu();
     initializeForm(); 
     initializeLoginForm(); 
 });
-
-}
